@@ -3,7 +3,7 @@
 name: Release
 on:
   schedule:
-    - cron: '0 0 * * *'
+    - cron: '0 0 1 1 *'
   workflow_dispatch: # Dispatch runs build and validate, then push to the appropriate storage location.
     inputs:
       type:
